@@ -1,4 +1,4 @@
-package i5.las2peer.services.res;
+package i5.las2peer.services.res2;
 
 
 import java.net.HttpURLConnection;
@@ -47,13 +47,13 @@ import java.util.Map;
  */
 @ServicePath("res")
 @ManualDeployment
-public class Res extends RESTService {
+public class Res2 extends RESTService {
 
 
 
 
 
-  public Res() {
+  public Res2() {
 	super();
     // read and set properties values
     setFieldValues();
@@ -80,7 +80,7 @@ public class Res extends RESTService {
   @Path("/")
   public static class RootResource {
 
-    private final Res service = (Res) Context.getCurrent().getService();
+    private final Res2 service = (Res2) Context.getCurrent().getService();
 
     
 

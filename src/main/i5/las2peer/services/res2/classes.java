@@ -1,4 +1,4 @@
-package i5.las2peer.services.res;
+package i5.las2peer.services.res2;
 
 import java.util.*;
 import org.json.simple.*;
