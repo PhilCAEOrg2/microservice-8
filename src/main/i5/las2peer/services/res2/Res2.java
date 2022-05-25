@@ -71,7 +71,7 @@ public class Res2 extends RESTService {
 
   @Api
   @SwaggerDefinition(
-      info = @Info(title = "8", version = "",
+      info = @Info(title = "8", version = "0.0.0",
           description = "",
           termsOfService = "",
           contact = @Contact(name = "", email = "CAEAddress@gmail.com") ,
